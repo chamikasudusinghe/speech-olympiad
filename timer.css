@@ -1,0 +1,26 @@
+body {
+  background-color: green;
+}
+
+.flex-parent {
+    display: flex;
+    text-align: center;
+  }
+  
+  .jc-center {
+    justify-content: center;
+  }
+  
+  button.margin-right {
+    margin-right: 20px;
+  }
+
+.button {
+    display:block;
+    position: absolute;
+    top: 50%;
+}
+
+#buttonA, #buttonB, #buttonC { cursor: pointer; }
+#buttonA, #buttonB, #buttonC { color: #fff; border-radius: 5px; padding: 10px 50px; }
+#buttonA, #buttonB, #buttonC { background: #0703af; }

@@ -1,0 +1,31 @@
+.exp{visibility: hidden;}
+
+#show-button,#contest-button { cursor: pointer; justify-content: center; display: flex; text-align: center;}
+#show-button,#contest-button { color: #fff; border-radius: 5px; padding: 10px 50px; }
+#show-button,#contest-button { background: #0703af; }
+
+body {
+    background-color: green;
+  }
+    
+.flex-parent {
+    display: flex;
+    text-align: center;
+  }
+  
+.jc-center {
+    justify-content: center;
+  }
+
+.cnt {
+    justify-content: center;
+}
+
+body {
+    color: white;
+}
+
+div.exp {
+    font-size: 400%;
+}
+  

@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="timer.css">
+    <script src="timer.js">
+    </script>
+</head>
+
+<body onload="cdreset()">
+
+    <div class="flex-parent jc-center">
+
+        <input id="buttonA" type="button" value="Start" onclick="countdown()">
+        <input id="buttonB" type="button" value="Stop" onclick="cdpause()">
+        <input id="buttonC" type="button" value="Reset" onclick="cdreset(seconds = 300)">
+
+    </div>  
+
+</body>
+
+</html>
